@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href=/web/ && git add . && git commit -m \"automated build push\" && git push -u origin master && angular-cli-ghpages",
+    "build": "ng build --prod --base-href=/nynas-angular/ && git add . && git commit -m \"automated git push\" && git push -u origin master && angular-cli-ghpages --branch gh-pages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
